@@ -14,5 +14,6 @@ function makeGray() {
         pix.setGreen(avg);
         pix.setBlue(avg);
     }
+    canvas = document.getElementById("canv2");
     image.drawTo(canvas);
 }
