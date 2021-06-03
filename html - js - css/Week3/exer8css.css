@@ -1,0 +1,21 @@
+h1{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+body{
+    font-family: cursive;
+    color: navy;
+    margin: 100pt
+}
+
+canvas{
+    border: 1px darkblue dashed;
+    margin-left: 5pt;
+}
+
+input{
+    font-size: 18pt;
+}
