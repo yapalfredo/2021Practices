@@ -1,4 +1,4 @@
-var image;
+var image = undefined;
 var canvas = undefined;
 function upload() {
     var textInput = document.getElementById("fileInput");

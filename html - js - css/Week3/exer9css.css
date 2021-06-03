@@ -1,0 +1,19 @@
+h1{
+    font-family: sans-serif;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+body{
+    font-family: cursive;
+    background: cornsilk;
+}
+
+canvas{
+    border: 1px graytext dashed;
+    margin-left: 5pt;
+}
+
+input{
+    font-size: 18pt;
+}
