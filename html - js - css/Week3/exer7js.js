@@ -1,7 +1,6 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
+function upload(){
+    var textInput = document.getElementById("fileInput");
+    var image = new SimpleImage(textInput);
+    var canvas = document.getElementById("canv1");
+    image.drawTo(canvas);
+}

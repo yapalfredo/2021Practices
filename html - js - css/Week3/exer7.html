@@ -4,10 +4,12 @@
         <title>Upload Image Prototype</title>
         <link rel="stylesheet" type="text/css" href="exer7css.css"/>
         <script src="exer7js.js"></script>
+        <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
     </head>
     <body>
         <h1>Upload Image Prototype</h1>
         <canvas id="canv1"></canvas>
-        <p>Filename: <input value="text" id="txtInput"/> <input type="button" value="Upload" onclick="upload()"/></p>
+        <!--<p>Filename: <input type="text" placeholder="upload file" id="txtInput"/> <input type="button" value="Upload" onclick="upload()"/></p>-->
+        <p><input type="file" multiple="false" accept="image/*" id="fileInput"  onchange="upload()"/></p>
     </body>
 </html>
