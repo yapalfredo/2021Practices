@@ -12,6 +12,8 @@ body{
 canvas{
     border: 1px graytext dashed;
     margin-left: 5pt;
+    width: 400px;
+    height: 200px;
 }
 
 input{
