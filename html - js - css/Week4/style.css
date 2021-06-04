@@ -1,0 +1,39 @@
+#div1{
+    margin-top: 50pt;
+    text-align: center;
+}
+
+body{
+    background-color: azure;
+}
+
+h1, h3, #fileInput, h2{
+    font-size: 33pt;
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 22pt;
+}
+
+h3{
+    font-size: 16.5pt;
+}
+
+canvas{
+    border: 1px graytext dashed;
+    margin-left: 5pt;
+    width: 500px;
+    height: 400px;
+}
+
+#fileInput{
+    font-size: 11pt;
+    font-weight: normal;
+}
+
+output{
+    font-family: monospace;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML, CSS, JavaScript - Mini Project</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="js.js"></script>
+        <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+    </head>
+    <body>
+        <div id="div1">
+            <h1>Filter Fun Mini Project</h1>
+            <canvas id="can"></canvas>
+            <h3>Load Image</h3>
+            <p><input type="file" accept="image/*" id="fileInput" onchange="upload()"/><output id="imageDimension"> </output></p>
+            <h2>Choose Filter</h3>
+            <p><input type="button" value="ROYGBIV" style="font-style: italic; background-color: yellowgreen" onclick="roygbiv()"/> <input type="button" value="Grayscale" style="background-color:beige; color: darkslategray;" onclick="makeGray()"/> <input type="button" value="Red" style="color:red" onclick="makeRed()"/> <input type="button" value="Blur" style="background-color: unset" onclick="blurImage()"/></p>
+            <p><input type="button" value="Clear Filter" style="font-weight: bold; font-size: 18pt" onclick="clearFilter()"/>
+        </div>
+    </body>
+</html>

@@ -33,6 +33,7 @@ function doGreenScreen() {
     clearCanvas();
 
     var output = new SimpleImage(fgImg.getWidth(), fgImg.getHeight());
+    alert(fgImg.getWidth() + "x" + fgImg.getHeight());
     for (var pixel of fgImg.values()) {
         var x = pixel.getX();
         var y = pixel.getY();
